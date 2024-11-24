@@ -66,8 +66,9 @@
       - 当 n = 1 时，仅考虑漫反射
       - 当 n > 1 时，加入镜面反射的成分，一般选择 n = 2,因为与反射相关的不均匀度超过超出了腹部CT图像通常的分辨率，选n = 2简化运算
 
-#### 简化估算反射波的强度
-## 超声仿真中的反射强度估算
+<br>
+
+#### ***超声仿真中的反射强度估算***
 
 在超声仿真中，反射强度可以通过以下公式估算：
 
@@ -75,7 +76,7 @@ $$
 \frac{I_r(x)}{I_i(x)} \approx \cos^2(\theta) \left( \frac{\|\nabla Z(x)\|}{2 \cdot Z(x)} \right)^2 = \left( d^T \cdot \frac{\nabla Z(x)}{\|\nabla Z(x)\|} \right)^2 \left( \frac{\|\nabla Z(x)\|}{2 \cdot Z(x)} \right)^2 = \left( \frac{d^T \cdot \nabla Z(x)}{2 \cdot Z(x)} \right)^2
 $$
 
-### 公式说明
+#### 公式说明
 
 1. **变量定义**:
    - $$\(I_r(x)\)$$: 在位置 \(x\) 的反射强度。
@@ -104,5 +105,8 @@ $$
    $$\frac{I_r(x)}{I_i(x)} \approx \left( \frac{d^T \cdot \nabla Z(x)}{2 \cdot Z(x)} \right)^2$$
    该公式结合了方向对齐、梯度强度以及归一化效果，用于估算反射强度。
 
+<br>
+
+### 3.3 Absorption 吸收
 
       
