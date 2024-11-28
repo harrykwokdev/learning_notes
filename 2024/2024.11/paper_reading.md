@@ -16,7 +16,7 @@
 <br>
 
 ## 3. Methods
-![img](res/fig1.png)
+![img](res_paper_reading/fig1.png)
 
 该仿真框架通过多个阶段处理，首先从3D超声数据中提取2D图像，接着模拟超声波与组织的交互，再添加噪声和模糊，最终生成一个可根据用户需求实时更新的图像。此框架可用于实时的超声图像生成和优化，广泛应用于医学成像和诊断模拟中。
 
@@ -53,14 +53,14 @@
 两种反射：镜面反射 漫反射
 
 #### 镜面反射：
-![img](res/fig2.png)
+![img](res_paper_reading/fig2.png)
 
 #### 漫反射：
-![img](res/fig3.png)  
+![img](res_paper_reading/fig3.png)  
 ***US图像更关注漫反射***
 
 #### 混合反射：p
-![img](res/fig4.png)  
+![img](res_paper_reading/fig4.png)  
 ***真实的超声图像中，既存在漫反射，也可能存在镜面反射，论文给出一种组合模型***  
    - **参数n**：
       - 当 n = 1 时，仅考虑漫反射
@@ -109,18 +109,18 @@ $$
 
 ### 3.3 Absorption 吸收
 
-![img](res/fig5.png)  
+![img](res_paper_reading/fig5.png)  
 *归一化后*  
-![img](res/fig6.png)
+![img](res_paper_reading/fig6.png)
 
 将超声阻抗映射到超声吸收中，利用插值法，选取两个区间，在空气和水，水和骨头这两个区间创建二次函数，进行二次插值，就可以有效创建声阻抗到声吸收的模型，将两个参数关联起来。
 
 <br>
 
 ### 3.4 Transmission 传播
-![img](res/fig8.png)  
+![img](res_paper_reading/fig8.png)  
 *blending image*  
-![img](res/fig9.png)
+![img](res_paper_reading/fig9.png)
 <br>
 
 
