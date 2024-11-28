@@ -120,10 +120,15 @@ $$
 ### 3.4 Transmission 传播
 ![img](res_paper_reading/fig8.png)  
 *blending image*  
-![img](res_paper_reading/fig9.png)
+![img](res_paper_reading/fig9.png)  
+Explanation：平方项表示从prob发射的US到反射体的传播过程中衰减和吸收效果和反射回prob的效果的叠加
+
 <br>
 
+### 3.5 Speckle noise and blurring 斑点噪音和模糊
 
+#### 1. 散斑噪声的建模：
+      
 
 
 
