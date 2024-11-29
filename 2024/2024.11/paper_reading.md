@@ -145,11 +145,13 @@ Explanation：平方项表示从prob发射的US到反射体的传播过程中衰
 ### 3.6 Reflection 折射
 本文不考虑折射
 
+<br>
 
+### 3.7 Log-compression 对数压缩
+**对数压缩**用于增强图像中较小信号的可见度
 
-
-
-
+## 4. Result 结果
+![img](res_paper_reading/fig10.png)
 
 
 
