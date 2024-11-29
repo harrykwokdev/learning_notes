@@ -153,6 +153,10 @@ Explanation：平方项表示从prob发射的US到反射体的传播过程中衰
 ## 4. Result 结果
 ![img](res_paper_reading/fig10.png)
 
+<br>
+
+## 5. Discussion 讨论
+
 
 
 
