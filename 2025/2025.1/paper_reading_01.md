@@ -116,7 +116,7 @@
 *   **Pose Graph (位姿图):**
     *   **节点 (Nodes):**
         *   当前帧 *Ft*
-        *   从 Memory Pool 中选择的 *K* 个关键帧 (论文中 *K* = 10)
+        *   从 Memory Pool 中选择的 *K* 个关键帧 
         *    Memory Pool 中的哪些帧被选中，在memory pool 的选择有描述。
 
     *   **边 (Edges):**
@@ -204,7 +204,7 @@ Lpg = WsLs(t) + Σ [WfLf(i, j) + WpLp(i, j)]
     * 当前帧的优化位姿。
    *   选择的Memory Pool 关键帧的优化位姿（取决于 `b(F)` 标志位，如果标志位为 TRUE，则不更新）。
 
-**要点总结:**
+**总结:**
  * pose graph的构建：
   * 节点： 当前帧 +  Memory Pool 选择的关键帧
   *  边： 帧之间的位姿
